@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SymblAISharp.Management.ConversationGroupApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAAAAAAAACgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Management\ConversationGroupApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SymblAISharp.Management.ConversationCreateGroupRequest" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Management\ConversationGroupRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Management.ConversationUpdateGroupRequest" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Management\ConversationGroupRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Management.Group" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Management\ConversationGroupResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Management.ConversationGroupResponse" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Management\ConversationGroupResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Management.ConversationDeleteResponse" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Management\ConversationGroupResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Management.TrackerApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAgAABABAAAAAMAAAGAA=</HashCode>
+      <FileName>Management\TrackerApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="SymblAISharp.Management.IConversationGroupApi">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Management\ConversationGroupApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SymblAISharp.Management.ITrackerApi">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAABABAAAAAEAAAGAA=</HashCode>
+      <FileName>Management\TrackerApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

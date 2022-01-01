@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SymblAISharp.TelephonyApi.StopTelephonyRequest" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>TelephonyApi\StopTelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.TelephonyApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.Endpoint" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.Parameters" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.Action" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.Session" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.Data" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.TelephonyRequest" Collapsed="true">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAQAAABAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.TelephonyResponse" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAIAAgAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.AudioConfig" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.Endpoint" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.Parameters" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.Action" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.Session" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.Data" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.User" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.SIPConnectRequestWithUser" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAQAAABAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.TelephonyApi.SIP.SIPConnectRequest" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAQAAABAAA=</HashCode>
+      <FileName>TelephonyApi\SIPConnectRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SymblAISharp.TelephonyApi.ITelephonyApi">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>TelephonyApi\TelephonyApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

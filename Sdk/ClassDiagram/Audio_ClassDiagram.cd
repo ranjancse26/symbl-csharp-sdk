@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SymblAISharp.Async.AudioApi.AudioApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgAAAAAAAAAAAAMAAAAAAAAAAAAAIACACAA=</HashCode>
+      <FileName>Async\AudioApi\AudioApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SymblAISharp.Async.AudioApi.Entity" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAIA=</HashCode>
+      <FileName>Async\AudioApi\AudioRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Async.AudioApi.Speaker" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Async\AudioApi\AudioRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Async.AudioApi.ChannelMetadata" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Async\AudioApi\AudioRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Async.AudioApi.AudioRequest" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoIAAAGAUCAAgAAAAAAAAAMgQAAAAQAAAAAABA=</HashCode>
+      <FileName>Async\AudioApi\AudioRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Async.AudioApi.AudioResponse" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Async\AudioApi\AudioResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SymblAISharp.Async.AudioApi.IAudioApi">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAACACAA=</HashCode>
+      <FileName>Async\AudioApi\AudioApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

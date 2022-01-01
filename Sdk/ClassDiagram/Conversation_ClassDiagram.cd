@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SymblAISharp.Conversation.ConversationApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAiAAQAAUAAACAECAABAIECAIIAAIAgAAAI=</HashCode>
+      <FileName>Conversation\ConversationApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SymblAISharp.Conversation.AbstractTopic.AbstractTopic" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAABAAAIAAAAAAAAIgA=</HashCode>
+      <FileName>Conversation\AbstractTopic\AbstractTopicResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.AbstractTopic.AbstractTopicResponse" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Conversation\AbstractTopic\AbstractTopicResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ActionItem.Entity" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAABACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\ActionItem\ActionItemResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ActionItem.From" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\ActionItem\ActionItemResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ActionItem.Assignee" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\ActionItem\ActionItemResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ActionItem.ActionItem" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAIAAEAAAAIAAAAEAABAQAIAAAAAAAAIgA=</HashCode>
+      <FileName>Conversation\ActionItem\ActionItemResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ActionItem.ActionItemResponse" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\ActionItem\ActionItemResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.Metric" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAQA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.Pace" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.TalkTime" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.ListenTime" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.OverlappingMember" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAEAAAIAAAAAAAAAwA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.Overlap" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.Member" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAGAAAIAAQAAAEAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Analytics.AnalyticsResponse" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAA=</HashCode>
+      <FileName>Conversation\Analytics\AnalyticsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.MetadataPut" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.ConversationPutRequest" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.Member" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.Metadata" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.Conversation" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAgACAAAAAFAAQAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.ConversationResponse" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.ConversationPutResponse" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Conversation.ConversationDeleteResponse" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Conversation\Conversation\ConversationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ConversationData.Member" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\ConversationData\ConversationDataResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ConversationData.Metadata" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\ConversationData\ConversationDataResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.ConversationData.ConversationDataResponse" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAgACAAAAAFAAQAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\ConversationData\ConversationDataResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Entity.MessageRef" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\Entity\EntityResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Entity.EntityResponse" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABACAIAAAAAQAAAIA=</HashCode>
+      <FileName>Conversation\Entity\EntityResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.ExperienceApi" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\ExperienceApi.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.TextExperienceRequest" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\TextExperienceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.TextExperienceResponse" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\TextExperienceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.TrackerAnalyticsExperienceRequest" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\TrackerAnalyticsExperienceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.TrackerAnalyticsExperienceResponse" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\TrackerAnalyticsExperienceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.VideoExperienceRequest" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\VideoExperienceRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Experience.VideoExperienceResponse" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\VideoExperienceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FollowUp.Entity" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAABACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FollowUp\FollowUpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FollowUp.From" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FollowUp\FollowUpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FollowUp.Assignee" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FollowUp\FollowUpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FollowUp.FollowUp" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAEAAAAIAAAAEAABAQAIAAAAAAAAIgA=</HashCode>
+      <FileName>Conversation\FollowUp\FollowUpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FollowUp.FollowUpResponse" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FollowUp\FollowUpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FormattedTranscript.Phrases" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FormattedTranscript\TranscriptRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FormattedTranscript.TranscriptRequest" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FormattedTranscript\TranscriptRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FormattedTranscript.Transcript" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FormattedTranscript\TranscriptResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.FormattedTranscript.TranscriptResponse" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\FormattedTranscript\TranscriptResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Member.Member" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\Member\MemberInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Member.MemberInfoGetResponse" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Member\MemberInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Member.MemberInfoPutResponse" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Conversation\Member\MemberInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Question.From" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\Question\QuestionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Question.Question" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAIAAAAAAABAAAIAAAAAAAAIgA=</HashCode>
+      <FileName>Conversation\Question\QuestionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Question.QuestionResponse" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Question\QuestionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.From" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.Phrase" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.Polarity" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.Sentiment" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.Message" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAIAAAAAAAgACAAAAAAAAAIAABAAAAAAgA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Sentiment.SentimentResponse" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Sentiment\SentimentResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeakerEvent.User" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Conversation\SpeakerEvent\SpeakerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeakerEvent.Offset" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Conversation\SpeakerEvent\SpeakerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeakerEvent.SpeakerEvent" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Conversation\SpeakerEvent\SpeakerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeakerEvent.SpeakerEventPutRequest" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Conversation\SpeakerEvent\SpeakerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeakerEvent.SpeakerEventPutResponse" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Conversation\SpeakerEvent\SpeakerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.From" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.Phrase" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.Polarity" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.Sentiment" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.Word" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.Message" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAIAAAAAAAgACAAAAAAAAAIACBAAAAAAgA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.SpeechToText.SpeechToTextResponse" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\SpeechToText\SpeechToTextResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Topic.ParentRef" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Topic\TopicResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Topic.Topic" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAABAAAIAAAAEAAAIgA=</HashCode>
+      <FileName>Conversation\Topic\TopicResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SymblAISharp.Conversation.Topic.TopicResponse" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Conversation\Topic\TopicResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SymblAISharp.Conversation.IConversationApi">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAQAAUAAACAECAABAIECAIIAAIAgAAAI=</HashCode>
+      <FileName>Conversation\ConversationApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SymblAISharp.Conversation.Experience.IExperienceApi">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Conversation\Experience\ExperienceApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
