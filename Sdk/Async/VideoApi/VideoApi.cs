@@ -143,8 +143,6 @@ namespace SymblAISharp.Async.VideoApi
             var httpRequest = (HttpWebRequest)WebRequest.Create(newUrl);
             httpRequest.Method = "POST";
 
-            httpRequest.ContentType = "x-www-form-urlencoded";
-
             httpRequest.Headers["Content-Type"] = contentType;
             httpRequest.Headers["Authorization"] = $"Bearer {token}";
 

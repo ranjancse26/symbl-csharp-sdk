@@ -139,7 +139,6 @@ namespace SymblAISharp.Async.AudioApi
             var httpRequest = (HttpWebRequest)WebRequest.Create(newUrl);
             httpRequest.Method = "POST";
       
-            httpRequest.ContentType = "x-www-form-urlencoded";
             httpRequest.Headers["Authorization"] = $"Bearer {token}";
 
             httpRequest.ContentLength = bytes.Length;

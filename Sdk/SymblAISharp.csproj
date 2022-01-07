@@ -6,13 +6,13 @@
 
 API Reference - https://docs.symbl.ai/docs/api-reference/getting-started</Description>
     <Copyright>Ranjan Dailata</Copyright>
-    <PackageLicenseFile>MIT-LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/ranjancse26/symbl-csharp-sdk</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>C#, Conversational Intelligence</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
@@ -20,6 +20,13 @@ API Reference - https://docs.symbl.ai/docs/api-reference/getting-started</Descri
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
