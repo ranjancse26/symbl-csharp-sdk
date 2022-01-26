@@ -8,7 +8,7 @@ namespace SymblAI.Async.Test
     [TestClass]
     public class UnitTest_Conversation : BaseTest
     {
-        private readonly string conversationId = "5185464127455232";
+        private readonly string conversationId = "6285417289613312";
 
         [TestMethod]
         public void TestMethod_Get_Sentiments_Success()

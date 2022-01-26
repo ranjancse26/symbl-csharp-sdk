@@ -19,7 +19,6 @@ namespace SymblAISharp.Authentication
             var httpRequest = (HttpWebRequest)WebRequest.Create(url);
             httpRequest.Method = "POST";
 
-            httpRequest.Headers["accept"] = "application/json";
             httpRequest.ContentType = "application/json";
 
             using (var streamWriter = new StreamWriter(httpRequest.GetRequestStream()))
