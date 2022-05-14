@@ -14,9 +14,9 @@ namespace SymblAISharp.Conversation.Experience
         Task<VideoExperienceResponse> GetVideoExperience(
             string conversationId,
             VideoExperienceRequest videoExperienceRequest);
-        Task<TrackerAnalyticsExperienceResponse> GetTrackerAnalyticsExperience(
+        Task<AudioExperienceResponse> GetAudioExperience(
             string conversationId,
-            TrackerAnalyticsExperienceRequest trackerAnalyticsExperienceRequest);
+            AudioExperienceRequest audioExperienceRequest);
     }
 
     /// <summary>
@@ -103,9 +103,9 @@ namespace SymblAISharp.Conversation.Experience
             return null;
         }
 
-        public async Task<TrackerAnalyticsExperienceResponse> GetTrackerAnalyticsExperience(
+        public async Task<AudioExperienceResponse> GetAudioExperience(
             string conversationId,
-            TrackerAnalyticsExperienceRequest trackerAnalyticsExperienceRequest)
+            AudioExperienceRequest trackerAnalyticsExperienceRequest)
         {
             var url = $"{baseUrl}/v1/conversations/{conversationId}/experiences";
             var httpRequest = (HttpWebRequest)WebRequest.Create(url);
@@ -126,7 +126,7 @@ namespace SymblAISharp.Conversation.Experience
                 using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
                 {
                     if (((HttpWebResponse)httpResponse).StatusCode == HttpStatusCode.OK)
-                        return JsonConvert.DeserializeObject<TrackerAnalyticsExperienceResponse>(
+                        return JsonConvert.DeserializeObject<AudioExperienceResponse>(
                             streamReader.ReadToEnd());
                 }
             }

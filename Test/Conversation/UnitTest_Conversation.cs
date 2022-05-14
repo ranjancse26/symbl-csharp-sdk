@@ -11,6 +11,19 @@ namespace SymblAI.Async.Test
         private readonly string conversationId = "6285417289613312";
 
         [TestMethod]
+        public void TestMethod_Get_TrackerDetected_Success()
+        {
+            var response = GetAuthToken();
+
+            // TODO - Replace with your own conversation id
+
+            IConversationApi conversationApi = new ConversationApi(response.accessToken);
+            var trackerDetectedResponse = conversationApi.GetTrackerDetectedResponse("4970748065087488");
+
+            Assert.IsTrue(trackerDetectedResponse.Count > 0);
+        }
+
+        [TestMethod]
         public void TestMethod_Get_Sentiments_Success()
         {
             var response = GetAuthToken();

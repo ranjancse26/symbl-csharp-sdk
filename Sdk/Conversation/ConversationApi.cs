@@ -16,6 +16,8 @@ using SymblAISharp.Conversation.SpeechToText;
 using SymblAISharp.Conversation.AbstractTopic;
 using SymblAISharp.Conversation.ConversationData;
 using SymblAISharp.Conversation.FormattedTranscript;
+using SymblAISharp.Async.Tracker;
+using System.Collections.Generic;
 
 namespace SymblAISharp.Conversation
 {
@@ -42,6 +44,7 @@ namespace SymblAISharp.Conversation
         ConversationDeleteResponse DeleteConversation(string conversationId);
         TranscriptResponse GetTranscriptResponse(string conversationId,
                 TranscriptRequest transcriptRequest);
+        List<TrackerDetectedResponse> GetTrackerDetectedResponse(string conversationId);
     }
 
     /// <summary>
@@ -349,6 +352,30 @@ namespace SymblAISharp.Conversation
                 {
                     var result = streamReader.ReadToEnd();
                     return JsonConvert.DeserializeObject<ConversationResponse>(result);
+                }
+            }
+
+            return null;
+        }
+
+        public List<TrackerDetectedResponse> GetTrackerDetectedResponse(string conversationId)
+        {
+            var url = $"{baseUrl}/v1/conversations/{conversationId}/trackers-detected";
+
+            var httpRequest = (HttpWebRequest)WebRequest.Create(url);
+            httpRequest.Method = "GET";
+
+            httpRequest.Headers["Authorization"] = $"Bearer {token}";
+            httpRequest.ContentType = "application/json";
+
+            var httpResponse = (HttpWebResponse)httpRequest.GetResponse();
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                if (httpResponse.StatusCode == HttpStatusCode.OK)
+                {
+                    var response = streamReader.ReadToEnd();
+                    return JsonConvert.DeserializeObject<
+                        List<TrackerDetectedResponse>>(response);
                 }
             }
 

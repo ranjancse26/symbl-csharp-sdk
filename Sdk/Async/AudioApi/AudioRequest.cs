@@ -26,7 +26,7 @@ namespace SymblAISharp.Async.AudioApi
         public AudioRequest()
         {
             customVocabulary = new List<string>();
-            trackers = new List<string>();
+            trackers = new List<Tracker.Tracker>();
             entities = new List<Entity>();
             channelMetadata = new List<ChannelMetadata>();
         }
@@ -44,7 +44,7 @@ namespace SymblAISharp.Async.AudioApi
         public bool enableSpeakerDiarization { get; set; }
         public string diarizationSpeakerCount { get; set; }
         public List<string> customVocabulary { get; set; }
-        public List<string> trackers { get; set; }
+        public List<Tracker.Tracker> trackers { get; set; }
         public List<Entity> entities { get; set; }
         public List<ChannelMetadata> channelMetadata { get; set; }
     }

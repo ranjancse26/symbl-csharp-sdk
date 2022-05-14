@@ -41,13 +41,13 @@ namespace SymblAI.Async.Test
         }
 
         [TestMethod]
-        public async Task TestMethod_Get_TrackerAnalyticsExperience_Success()
+        public async Task TestMethod_Get_AudioExperience_Success()
         {
             var response = GetAuthToken();
 
             IExperienceApi experienceApi = new ExperienceApi(response.accessToken);
-            var trackerAnalyticsExperienceResponse = await experienceApi.GetTrackerAnalyticsExperience(conversationId, 
-                new TrackerAnalyticsExperienceRequest
+            var trackerAnalyticsExperienceResponse = await experienceApi.GetAudioExperience(conversationId, 
+                new AudioExperienceRequest
             {
                 name = "audio-summary",
                 audioUrl = "https://symbltestdata.s3.us-east-2.amazonaws.com/sample_audio_file.wav"

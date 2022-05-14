@@ -1,7 +1,7 @@
 using SymblAI.Test;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SymblAISharp.Async.JobApi;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SymblAI.Async.Test
 {
@@ -11,7 +11,7 @@ namespace SymblAI.Async.Test
         [TestMethod]
         public async Task TestMethod_JobApi_Get_Success()
         {
-            string jobId = "5b01cf88-3608-48bc-b441-9589a6b8a745";
+            string jobId = "0124c042-cc20-4f02-85ab-f8b0e3434827";
             var response = GetAuthToken();
             IJobApi jobApi = new JobApi(response.accessToken);
 

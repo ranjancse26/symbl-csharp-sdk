@@ -8,7 +8,7 @@ namespace SymblAISharp.Async.TextApi
         {
             name = "";
             webhookUrl = "";
-            trackers = new List<Tracker>();
+            trackers = new List<Tracker.Tracker>();
         }
 
         public string name { get; set; }
@@ -18,6 +18,6 @@ namespace SymblAISharp.Async.TextApi
         public bool enableAllTrackers { get; set; }
         public bool detectEntities { get; set; }
         public List<Message> messages { get; set; }
-        public List<Tracker> trackers { get; set; }
+        public List<Tracker.Tracker> trackers { get; set; }
     }
 }
